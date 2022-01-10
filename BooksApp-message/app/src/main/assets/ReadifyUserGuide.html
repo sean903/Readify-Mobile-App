@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<title>Readify User Guide</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+h1 {
+text-align: center;
+color: #248f24;
+
+}
+
+.dropbtn {
+  background-color: #248f24;
+  width:100%;
+  color: white;
+  padding: 30px;
+
+  font-size: 25px;
+  border: solid;
+  border-width: 1px;
+}
+
+.dropbtn:hover {
+  background-color: #34c6eb;
+}
+
+p{
+ font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+.show {display:block;}
+
+</style>
+
+
+<body>
+<h1> User Guide! </h1>
+
+
+<div class="dropdown1">
+    <button onclick="myDrop1()" class="dropbtn">General Queries </button>
+    <div id="myDropdown" class="dropdown-content">
+        <p> Please contact readify@gmail.com if any questions are not addressed in the user guide</p>
+    </div>
+</div>
+
+<div class="dropdown2">
+    <button onclick="myDrop2()" class="dropbtn">How to create an account? </button>
+    <div id="myDropdown2" class="dropdown-content">
+        <p> 1) Choose any username</p>
+        <p> 2) Enter any new email address </p>
+        <p> 3) Enter a password over 6 characters </p>
+        <p> 4) Press Register and enjoy Readify!</p>
+        <img src="Register.png" alt="Register">
+    </div>
+</div>
+
+<div class="dropdown3">
+    <button onclick="myDrop3()" class="dropbtn">Search for a book</button>
+    <div id="myDropdown3" class="dropdown-content">
+        <p> 1) Press the search icon on the bottom menu</p>
+        <p> 2) You should see the screen below: </p>
+        <img src="Search.png" alt="Search">
+        <p> 3) Search for any book by title, author or ISBN!</p>
+    </div>
+
+    <div class="dropdown4">
+        <button onclick="myDrop4()" class="dropbtn">Can't find the book you are looking for?</button>
+        <div id="myDropdown4" class="dropdown-content">
+            <p> 1) Try searching by ISBN. You should find this at the back cover of your book, near the barcode</p>
+            <a href = "https://www.bookfinder.com">2) Or search this website to find your book: https://www.bookfinder.com </a>
+            <img src="ISBN.jpeg" alt="Search">
+        </div>
+
+        <div class="dropdown5">
+            <button onclick="myDrop5()" class="dropbtn">Add a book to your list</button>
+            <div id="myDropdown5" class="dropdown-content">
+                <p> 1) Search for your book </p>
+                <img src="ChooseBook.png" alt="Choose Book">
+                <p> 2) Click on the green plus icon </p>
+                <img src="AddToWish.png" alt="Add to playlist">
+                <p> 3) Press the profile icon on the bottom menu </p>
+                <p> 4) Choose the playlist you added it to </p>
+                <p> 5) It should appear in the playlist below: </p>
+                <img src="Playlist.png" alt="Playlist">
+
+
+            </div>
+
+            <div class="dropdown6">
+                <button onclick="myDrop6()" class="dropbtn">Notifications and reminders</button>
+                <div id="myDropdown6" class="dropdown-content">
+                    <p> 1) Set a time to get reminded to read! </p>
+                    <p> 2) Press the settings icon on the bottom navigation </p>
+                    <p> 3) Switch on the notifications </p>
+                    <img src="SettingsScreen.png" alt="Playlist">
+                    <p> 4) Set a time to get reminded </p>
+                    <img src="ChooseTime.png" alt="Choose Time">
+                    <p> 5) Press ok and enjoy your notification reminder </p>
+
+
+                </div>
+            </div>
+
+
+            <script>
+
+/* Show answer to question when user clicks
+*/
+function myDrop1(){
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+function myDrop2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+function myDrop3() {
+  document.getElementById("myDropdown3").classList.toggle("show");
+}
+function myDrop4() {
+  document.getElementById("myDropdown4").classList.toggle("show");
+}
+function myDrop5() {
+  document.getElementById("myDropdown5").classList.toggle("show");
+}
+function myDrop6() {
+  document.getElementById("myDropdown6").classList.toggle("show");
+}
+
+</script>
+
+</body>
+
+
+</html>
+

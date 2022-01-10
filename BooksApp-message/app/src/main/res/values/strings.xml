@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Readify</string>
+    <string name="title_activity_login">Login</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="messages">Messages</string>
+    <string name="search">Search</string>
+    <string name="books_api_key">AIzaSyC3NhjtsPAbMEQ9w2Rzwb21QviHOrpisBQ</string>
+    <string name="search_books_by_name_author_or_isbn">Search books by name, author or ISBN</string>
+    <string name="books">Books</string>
+    <string name="err_search">Error fetching books</string>
+    <string name="no_books_found">No books found for your query!</string>
+    <string name="info_wishlist">Add to wish list</string>
+    <string name="choose_whishlist">Choose Wishlist</string>
+</resources>

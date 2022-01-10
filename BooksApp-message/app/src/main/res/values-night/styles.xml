@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Widget.Theme.MobileApllication.MyView" parent="">
+        <item name="android:background">#c2c1c9</item>
+        <item name="exampleColor">#49adf5</item>
+    </style>
+</resources>
