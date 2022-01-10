@@ -1,4 +1,4 @@
-# Readify
+<h1 align = "center"> 📚 Readify 📚 </h1>
 
 ## Problem Statement 
 
@@ -16,5 +16,26 @@ Additionally, users can share books with there friends, set reading notification
 
 Google Firebase was usen to sign new users up and authenticate sign in.
 
+<div align="center">
+  <img src="mobile-screenshots/sign_up.png" alt="Sign Up Screenshot" width="200"/>
+  <img src="mobile-screenshots/log_in.png" alt="Log in Screenshot" width="200" /> 
+</div>
 
+### Search/Add Book screen
 
+<div align="center">
+  <img src="mobile-screenshots/search.png" alt="Search Screenshot" width="200" />
+    <img src="mobile-screenshots/add_to_playlist.png" alt="Add to playlist Screenshot" width="200" />
+</div>
+
+### Playlist
+
+<div align="center">
+  <img src="mobile-screenshots/playlist_example.png" alt="Playlist Screenshot" width="200"/>
+</div>
+
+### Settings
+
+<div align="center">
+  <img src="mobile-screenshots/settings.png" alt="Settings Screenshot" width="200"/>
+</div>
