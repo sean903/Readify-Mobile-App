@@ -6,7 +6,7 @@ People struggle to track books they have read or want to read.
 
 ## Overview
 
-The application is a book tracking app written in Java. A user can track the books they have read and want to read by adding books from the search section using the name of the book, the author or ISBN.
+A book tracking app written in Java. A user can track the books they have read and want to read by adding books from the search section using the name of the book, the author or ISBN.
 
 Users can add their books to four sections ‘read’, ‘want to read’, ‘fiction’, ‘non-fiction’.
 
